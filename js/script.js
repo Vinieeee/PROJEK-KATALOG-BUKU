@@ -918,6 +918,7 @@ document.getElementById("btnAdvancedSearch")?.addEventListener("click", function
     const originalIndex = books.indexOf(book);
     bookGridUser.innerHTML += createCardUser(book, originalIndex);
   });
+  advancedModal.style.display = "none";
 });
 const categorySelect = document.getElementById("filterCategory");
 if (categorySelect) {
