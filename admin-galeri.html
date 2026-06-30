@@ -12,17 +12,12 @@
 <body>
   <div class="container">
     <input type="checkbox" id="navToggle" class="nav-toggle" />
-    <!-- ================= SIDEBAR ================= -->
     <aside class="sidebar">
-
-      <!-- LOGO -->
       <div class="logo">
         <a href="admin-home.html">
           <img src="src/logo mikro biru.webp" alt="Logo Mikro" />
         </a>
       </div>
-
-      <!-- NAVIGATION -->
       <nav class="nav-menu">
         <ul>
           <li>
@@ -53,35 +48,24 @@
           </li>
         </ul>
       </nav>
-
     </aside>
-
-
-    <!-- ================= MAIN CONTENT ================= -->
     <div class="main-content">
-
       <header class="topbar">
         <h1>Galeri Book</h1>
-        <!-- HUBERGER -->
         <label for="navToggle" class="hamburger">
           <span></span>
           <span></span>
           <span></span>
         </label>
       </header>
-
       <main>
         <section>
           <div class="gallery-header">
             <h2>Koleksi Buku</h2>
             <p>Total: <strong id="dataCount">0</strong> buku</p>
           </div>
-
-          <!-- CONTROLS: SEARCH + FILTER + HAPUS SEMUA -->
           <div class="gallery-controls">
-
             <input type="text" id="searchInput" placeholder="🔍 Cari judul atau pengarang..." />
-
             <select id="filterKategori">
               <option value="">All Kategori</option>
               <option value="Fiction">Fiction</option>
@@ -89,9 +73,7 @@
               <option value="Reference">Reference</option>
               <option value="Textbook">Text Book</option>
             </select>
-
             <button id="btnHapusSemua">🗑️ Hapus Semua</button>
-
             <div class="btn-add">
               <a href="admin-add-book.html">
                 <i class="fa-solid fa-plus"></i>
@@ -99,12 +81,9 @@
               </a>
             </div>
           </div>
-
-          <!-- GRID BOOK -->
           <div class="book-grid" id="bookGridAdmin"></div>
         </section>
       </main>
-
     </div>
   </div>
   <script src="js/script.js"></script>

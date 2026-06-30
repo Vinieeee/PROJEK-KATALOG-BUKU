@@ -112,14 +112,14 @@ a {
     box-shadow: 0 0 15px #06b6d4;
 }
 
-#loginMessage{
+#loginMessage {
     margin-top: 15px;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
 }
 
-.back-circle{
+.back-circle {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -133,7 +133,7 @@ a {
     transition: .3s;
 }
 
-.back-circle:hover{
+.back-circle:hover {
     color: #38bdf8;
 }
 

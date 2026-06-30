@@ -1649,6 +1649,7 @@ footer {
   .book-track {
     gap: 10px;
   }
+
   .detail-grid {
     grid-template-columns: 1fr;
   }
@@ -1815,6 +1816,7 @@ footer {
   .book-slider {
     height: 130px;
   }
+
   .contact-info h1 {
     font-size: 32px;
   }

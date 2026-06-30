@@ -10,23 +10,17 @@
 
 <body>
     <div class="bg-header-galeri">
-        <!-- ================= HEADER ================= -->
         <header class="navbar">
             <div class="navbar-inner">
-                <!-- LOGO -->
                 <a href="index.html" class="logo">
                     <img src="src/logo mikro putih.webp" alt="Logo Mikro" />
                 </a>
-
-                <!-- HAMBURGER -->
                 <input type="checkbox" id="navToggle" class="nav-toggle" />
                 <label for="navToggle" class="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-
-                <!-- NAVIGATION -->
                 <nav>
                     <ul class="nav-menu">
                         <li class="judul-nav">MENU</li>
@@ -37,14 +31,11 @@
                         <li class="admin-menu"><a href="admin-login.html">Login Admin</a></li>
                     </ul>
                 </nav>
-
                 <div class="nav-overlay"></div>
             </div>
-            <!-- HEADER CONTENT -->
             <div class="header-content">
                 <h1>KOLEKSI BUKU</h1>
             </div>
-
             <div class="user-controls">
                 <div class="search" id="SearchInput">
                     <input type="text" placeholder="e.g. Library and Information" />
@@ -54,20 +45,16 @@
                     <a href="#" id="openAdvancedSearch">Advanced Search</a>
                 </div>
             </div>
-
-    </div>
-    </header>
+        </header>
     </div>
     <main class="galeri-container">
         <div class="book-grid" id="bookGridUser"></div>
     </main>
-
     <footer>
         <p>&copy; 2026 Katalog - Perpustakaan Mikroskil</p>
     </footer>
     <form id="advancedModal" class="advanced-modal">
         <div class="advanced-content">
-
             <button type="button" class="close-advanced">&times;</button>
             <h2>🔍 Advanced Search</h2>
             <div class="advanced-form">
@@ -99,11 +86,9 @@
                     <label>Tahun Terbit</label>
                     <input type="text" id="filterYear" maxlength="4" placeholder="e.g. 2024">
                 </div>
-
                 <button type="submit" id="btnAdvancedSearch" class="btn-search">
                     Cari Buku
                 </button>
-
             </div>
         </div>
     </form>
